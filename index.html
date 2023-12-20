@@ -5,17 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turkish Foods - Pixel Art</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Turkish Foods</h1>
-    <img src="./images/chef.jpg" height="512px" width="512px">
-    <h2>Recipes</h2>
-    <ul>
-        <li><a href="./recipes/kebab.html">Turkish Kebab</a></li>
-        <li><a href="./recipes/manti.html">Manti(Turkish 'Ravioli' with Yogurt Sauce)</a></li>
-        <li><a href="./recipes/baklava.html">Baklava</a></li>
-    </ul>
+    <div id="content">
+        <img id="chef-img" src="./images/chef.jpg">
+        <div class="recipe-list">
+            <div class="food">
+                <a href="./recipes/kebab.html">Kebab</a>
+                <img class="food-img" src="./images/kebab.jpg" alt="">
+                <img class="food-overlay" src="./images/food_overlay.jpg" alt="Kebab">
+            </div>
+            <div class="food">
+                <a href="./recipes/manti.html">Manti</a>
+                <img class="food-img" src="./images/manti.jpg" alt="">
+                <img class="food-overlay" src="./images/food_overlay.jpg" alt="Manti">
+            </div>
+            <div class="food">
+                <a href="./recipes/baklava.html">Baklava</a>
+                <img class="food-img" src="./images/baklava.jpg" alt="">
+                <img class="food-overlay" src="./images/food_overlay.jpg" alt="Baklava">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
